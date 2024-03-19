@@ -25,7 +25,7 @@ int main (){
                 }
                 if (n_10) {
                     if(n_5) cout << " + "  << n_10 << "X 10c ";
-                    else cout << n_10 << "X 10c ";
+                    else cout << " + "  << n_10 << "X 10c ";
                 }
                 cout << "\n ";
             }

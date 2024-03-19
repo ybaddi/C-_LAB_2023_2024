@@ -7,5 +7,6 @@ private:
 public:
     point (float,float);
     void deplace(float, float);
-    void affiche();
+    float abs();
+    float ord();
 };

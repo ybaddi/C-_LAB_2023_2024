@@ -15,8 +15,13 @@ void point::deplace(float a, float b){
     x= x+a;
     y = y+b;
 }
-void point::affiche(){
-    cout<< " mes cooordonnee sont : " << x << " et "<< y << endl;
+
+float point::abs(){
+    return x;
+}
+
+float point::ord(){
+    return y;
 }
 
 
