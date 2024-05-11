@@ -33,7 +33,7 @@ cout << "** construction objet C : " << n << " " << p <<"\n" ;
 }
 } ;
 
-int  main()
+  int main()
 { C c1 ;
 C c2 (10, 11, 12, 5.0) ;
 return 0;
